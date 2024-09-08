@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+;body{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+.header-container
+{
+    display: flex;
+    /* justify-content:space-evenly; */
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-size: cover;
+    margin-right: 100%;
+    background-color: black;
+    text-align: center;
+    text-align: left;
+    background-image: linear-gradient(black,grey);
+
+}
+.tag{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+#Home{
+    background-color: white;
+    color: black;
+    width: 70px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_img {
+    width: 100vw; 
+    margin: 0; 
+    padding: 0;
+    display: block;
+    position: relative; /* Keeps relative positioning */
+    background-size: cover; /* Only affects background images */
+}
+.main_img img {
+    width: 100%; /* Make the image span the full width of the container */
+    height: auto; /* Maintain the image aspect ratio */
+}
+
+.three-img{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 2%;
+}
+.side_two{
+    width: 450px;
+    height: 450px;
+}
+.side_one{
+    width: 450px;
+    height: 450px;
+}
+.side_three{
+    width: 450px;
+    height: 450px;
+}
+.footer{
+    background-color: black;    
+    margin-top: 4%;
+    height: 750px;
+}
+p{
+    color: white;
+    width: 50%;
+    /* overflow-wrap: break-word; */
+    height: 500%;
+    margin-bottom: 5px;
+}
+/* .footerimg{
+    width: 45%;
+    display: inline-block;
+    position: relative;
+    /* margin: 1%; */
+    /* right: 10%;
+    left: 50%;
+    height: 92%; */ 
+
+#para-container{
+    display: flex;
+    border: 5px solid black;
+
+    /* width: 50%; */
+}
+#para-container > img{
+    width: 50%;
+    height: 40%;
+    margin-top: 12%;
+}
+#para-container > p{
+    margin-top: 35%;
+}
